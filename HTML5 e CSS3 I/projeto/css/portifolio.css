@@ -1,0 +1,14 @@
+.lista_projetos li {
+  margin-right: 16px;
+  margin-bottom: 16px;
+  padding: 16px;
+  border: 8px solid black;
+  background-color: #FAFFFC;
+  display: inline-block;
+  width: 45%;
+  box-sizing: border-box;
+}
+
+.lista_projetos img {
+  width: 100%;
+}

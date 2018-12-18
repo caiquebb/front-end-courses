@@ -1,0 +1,127 @@
+body {
+  font-family: "Crimson Text", serif;
+  background-color: #f2fffc;
+  line-height: 1.5;
+}
+
+h1 {
+    font-family: "Open Sans Condensed", sans-serif;
+}
+
+h2 {
+    font-family: "Open Sans Condensed", sans-serif;
+    font-size: 30px;
+    clear: both;
+}
+
+.titulo_principal {
+  font-size: 60px;
+  text-align: center;
+  color: white;
+  background-color: #851944;
+  padding: 25px;
+  border-bottom: 10px solid #000;
+  text-transform: uppercase;
+}
+
+main a {
+  color: #851944;
+}
+
+p {
+  text-align: justify;
+  margin: 20px 0;
+}
+
+.navegacao {
+  background-color: #3C1D3D;
+  color: #F2FFFC;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.navegacao a {
+  color: inherit;
+  font-family: "Open Sans Condensed", sans-serif;
+  text-transform: lowercase;
+}
+
+.navegacao h1 {
+  margin-bottom: 25px;
+  font-size: 30px;
+}
+
+.social_links li {
+  display: inline-block;
+}
+
+.social_links a {
+  display: block;
+  width: 40px;
+  height: 40px;
+  font-size: 0;
+}
+
+.github {
+  background-image: url(../img/github.png);
+}
+
+.twitter {
+  background-image: url(../img/twitter.png);
+}
+
+.linkedin {
+  background-image: url(../img/linkedin.png);
+}
+
+.rodape_pagina {
+  background-color: black;
+  color: #F2FFFC;
+  padding: 20px;
+}
+
+.conteudo_principal {
+    width: 720px;
+    margin: 0 auto;
+    padding: 30px 0;
+}
+
+em {
+  font-style: italic;
+}
+
+strong {
+  font-weight: bold;
+}
+
+main {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 85%;
+  padding-bottom: 80px;
+}
+
+.foto_principal {
+  border-left: 10px solid black;
+  border-bottom: 10px solid black;
+  box-sizing: border-box;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+aside {
+  border-left: 10px solid black;
+  border-bottom: 10px solid black;
+  box-sizing: border-box;
+  position: absolute;
+  top: 310px;
+  right: 0;
+}
+
+footer {
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
